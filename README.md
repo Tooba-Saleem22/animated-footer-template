@@ -1,18 +1,110 @@
-# React + Vite
+# ✦ Animated Footer Template
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+  <br/>
+  <strong style="font-size: 38px;">A N I M A T E D</strong>
+  <br/>
+  <strong style="font-size: 52px;">FOOTER</strong>
+  <br/>
+  <sub>A modern footer experience built for the web.</sub>
+  <br/><br/>
+  <a href="https://animated-footer-template-qjsfwx9kp.vercel.app/">Live Demo</a>
+  &nbsp; · &nbsp;
+  <a href="https://github.com/Tooba-Saleem22/animated-footer-template">Source Code</a>
+  <br/><br/>
+</p>
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Overview
 
-## React Compiler
+A clean, responsive, and customizable footer component built with React and Tailwind CSS, featuring smooth motion effects, interactive social links, and an oversized gradient brand watermark.
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+Designed to give websites a modern, polished finish across desktop, tablet, and mobile screens.
 
-Note: This will impact Vite dev & build performances.
+## Features
 
-## Expanding the ESLint configuration
+- Responsive layout for different screen sizes
+- Smooth entrance animations with Framer Motion
+- Oversized gradient brand watermark
+- Social media icons with hover effects
+- Global presence section with country flags
+- Customizable branding, logo, links, and content
+- Reduced-motion support for accessibility
+- Reusable React components
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+
+| Technology | Purpose |
+|---|---|
+| React | UI components |
+| Vite | Development and build tooling |
+| Tailwind CSS | Responsive styling |
+| Framer Motion | Animation effects |
+| React Icons | Social media icons |
+
+## Preview
+
+**Live demo:** [View the Animated Footer](https://animated-footer-template-qjsfwx9kp.vercel.app/)
+
+## Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Tooba-Saleem22/animated-footer-template.git
+```
+
+Navigate into the project:
+
+```bash
+cd animated-footer-template
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Open the local URL displayed in your terminal.
+
+## Customization
+
+Update the configuration in `src/components/Footer.jsx` to personalize the footer.
+
+- `BRAND_NAME` — Change the brand text.
+- `LOGO_URL` — Set your logo path.
+- `SOCIAL_LINKS` — Add your social profile URLs.
+- `COUNTRIES` — Customize the locations displayed.
+- `FOOTER_COLUMNS` — Edit navigation headings and links.
+
+You can also modify the Tailwind classes and Framer Motion settings to match your own design.
+
+## Deployment
+
+Deployed with [Vercel](https://vercel.com/).
+
+**[↗ Visit the live website](https://animated-footer-template-qjsfwx9kp.vercel.app/)**
+
+## Author
+
+**Tooba Saleem**
+
+[GitHub](https://github.com/Tooba-Saleem22) · [Portfolio](https://toobasaleem.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/tooba-saleem-51491931a/)
+
+---
+
+<p align="center">
+  <sub>CRAFTED FOR THE WEB</sub>
+  <br/>
+  <strong>ANIMATED FOOTER TEMPLATE</strong>
+  <br/><br/>
+  <sub>Built with React, Tailwind CSS & Framer Motion.</sub>
+</p>
